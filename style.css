@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+background-color: white;
+flex-wrap:wrap ;
+}
+.nav{
+    display: flex;
+    background-color:white;
+   justify-content: center;
+    height: 50px;
+
+}
+.nav h2{
+    color: black;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+
+}
+.logo{
+    color: white;
+    display: flex;
+    justify-content: l;
+    
+}
+.logo h2{
+    margin: 1%;
+    font-weight: normal;
+    font-size: 150%;
+    display: flex;
+    justify-content: l;
+}
+
+.titulo{
+    font-size: 3.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+    background-color: black;
+    color: white;
+
+}
+
+.galery {
+    overflow: hidden;
+    width: 75%;
+}
+
+.galery .fotos {
+    display: flex;
+    width: 500%;
+    border:2px solid white;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 20%;
+    display: flex;
+}
+main{
+background-image: url("backgroundcarrossel.jpg");
+min-height: 100%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+
+}
+.main_cta{
+    height: 1%;
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+}
+.main__cta h2{
+    color: white;
+    font-size: 40px;
+}
+
+.menu{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+.btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+.menu .btn-menu:hover{
+    background-color:#124265;
+    color: white;
+
+}
+
+.principal{
+    border: 2px solid black;
+    background-color: black;
+}
+
+.localizacao{
+    height: 1%;
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+}
+.localizacao h2{
+    color: white;
+    font-size: 40px;
+}
+
+
+.principal h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.principal p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
